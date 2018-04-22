@@ -5,7 +5,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:server": "node server/app.js",
     "build": "ng build --prod",
+    "build:server": "tsc server/app.ts",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -22,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
