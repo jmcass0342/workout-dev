@@ -7,7 +7,7 @@
     "start": "ng serve",
     "start:server": "node server/app.js",
     "build": "ng build --prod",
-    "build:server": "tsc server/app.ts",
+    "build:server": "tsc server/*.ts",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -25,6 +25,7 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "express": "^4.16.3",
+    "mysql": "^2.15.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
